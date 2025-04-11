@@ -14,7 +14,6 @@ int main()
     while (maxIntAdd <= minIntAdd)
     {
         printf("Invalid input! Upper limit must be greater than lower limit.\n");
-        printf("What is the addition range?\n");
         printf("Lower limit: ");
         scanf("%d", &minIntAdd);
         printf("Upper limit: ");
@@ -29,7 +28,6 @@ int main()
     while (maxIntMult <= minIntMult)
     {
         printf("Invalid input! Upper limit must be greater than lower limit.\n");
-        printf("What is the multiplication range?\n");
         printf("Lower limit: ");
         scanf("%d", &minIntMult);
         printf("Upper limit: ");
