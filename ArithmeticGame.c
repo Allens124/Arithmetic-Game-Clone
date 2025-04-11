@@ -2,6 +2,6 @@
 
 int main()
 {
-    //code;
+    int score = 0;
     return 0;
 }
