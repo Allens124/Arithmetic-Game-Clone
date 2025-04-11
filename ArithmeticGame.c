@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int score = 0;
+
 int main()
 {
-    int score = 0;
     int minIntAdd = 2, maxIntAdd = 100;
     printf("What is the addition range?\n");
     printf("Lower limit: ");
