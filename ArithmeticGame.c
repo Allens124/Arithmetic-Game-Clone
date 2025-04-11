@@ -19,6 +19,7 @@ int main()
         printf("Upper limit: ");
         scanf("%d", &maxIntAdd);
     }
+
     int minIntMult = 2, maxIntMult = 100;
     printf("What is the multiplication range?\n");
     printf("Lower limit: ");
