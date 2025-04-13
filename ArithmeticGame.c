@@ -39,6 +39,7 @@ int main()
     while (score < 10)
     {
         printf("Current score: %d\n", &score);
+        res = minIntAdd+rand()%(minIntMult-minIntAdd+1);
     }
     return 0;
 }
