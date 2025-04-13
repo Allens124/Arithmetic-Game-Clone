@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int score = 0;
+int res, ans;
 
 int main()
 {
@@ -33,6 +34,11 @@ int main()
         scanf("%d", &minIntMult);
         printf("Upper limit: ");
         scanf("%d", &maxIntMult);
+    }
+
+    while (score < 10)
+    {
+        printf("Current score: %d\n", &score);
     }
     return 0;
 }
